@@ -1,0 +1,81 @@
+body {
+    background-color: #022ba8; /* Couleur de fond bleue */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    margin: 0;
+}
+.breadcrumb {
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: black;
+    margin: 0 60px;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Disposition des 4 buttons */
+    width: 50%;
+}
+.button {
+    background-color: white;
+    color:black;
+    border: none;
+    padding: 10xp;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #dddddd;
+    box-shadow: 0px 15px 20px #0dc7f5a6;
+    color: #022ba8;
+    transform: translateY(-7px);
+}
+.reduis {
+    border-radius: 40px; /* Partie d'animation des 4 buttons */
+    font-size: 30px;
+    width: 100%;
+    padding: 1%;
+    margin: 15px; 
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(255, 253, 253, 0.582);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+.student-image {
+    background-color: white;    /* Animation de la partie des images */
+    padding: 250px;
+    border-radius: 15px;
+    margin: 0 auto;
+    z-index: 1;
+    box-shadow: 0px 10px 10px rgb(73, 70, 92);
+    transition: 0.5s;
+}
+.student-image:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 10px black;
+}
+.Im_place {
+
+}
