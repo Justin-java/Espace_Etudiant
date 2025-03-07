@@ -1,173 +1,199 @@
 body {
-    background-color: #022ba8; /* Couleur de fond bleue */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 140vh;
-    margin: 0;
+  background-color: #022ba8; /* Couleur de fond bleue */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 140vh;
+  margin: 0;
+  height: 1200px;
 }
-img {
-  width: 10%;
-  left:100%;
-  margin-top:18%;
-  margin-left: -90%;
+body div {
+height: 1000px;
+margin-top: 12%;
+}
+.img_epl {
+  height: 180px;
+  width: 200px;
+  padding: 10px;
+  margin-left: 1%;
+  margin-top: 6%;
 }
 p {
-    color: white;
-    font-size: 30px;
-    margin-left: -60%;
-    margin-top: -6%;
-  }
+color: white;
+font-size: 30px;
+margin-left: 18%;
+margin-top: -6%;
+}
 /@media (min-width: 400px) and (max-width : 500px) {
-  table tbody tr td {
-    padding : 10px;
-  }
+table tbody tr td {
+  padding : 10px;
+}
 }
 @media (min-width: 501px) {
-  table tbody tr td {
-    padding : 20px;
-  }
+table tbody tr td {
+  padding : 20px;
+}
+}
+.div_nav {
+height: 150px;
+margin-top: 0%;
 }
 nav {
-    background-color: white;
-    padding: 0.5%;
-    border-radius: 30px;
-    margin-bottom:10%;
-    font-size: 200%;
-    
+  position: relative;
+  align-items: center;
+  margin-left: 30%;
+  width: 550px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 30px;
+  margin-bottom:10%;
+  display: flex;
+  font-size: 200%;
+  
 }
 nav a {
-    text-decoration: none;
-    color: black;
-    margin: 0 40px;
+  text-decoration: none;
+  color: black;
+  margin: 0 40px;
 }
 nav a:visited {
-  color : #000000;
-  background-color: #ffffff
+color : #000000;
+background-color: #ffffff
 }
 .btn:link,
 .btn:visited{
-  text-decoration: none;
-  position:relative;
-  top:0;
-  left:0;
-  padding:5px 10px;
-  border-radius:100px;
-  display:inline-block;
-  transition: all .5s;
+text-decoration: none;
+position:relative;
+top:0;
+left:0;
+padding:5px 10px;
+border-radius:100px;
+display:inline-block;
+transition: all .5s;
 }
 
 .btn-white {
-  background:#fff;
-  color:#022ba8;
+background:#fff;
+color:#022ba8;
 }
 
 .btn:hover{
-   box-shadow:0px 10px 10px #022ba8;
-   transform : translateY(-3px);
+ box-shadow:0px 10px 10px #022ba8;
+ transform : translateY(-3px);
 }
 
 .btn:active {
-  box-shadow:0px 5px 10px rgba(0,0,0,0.2);
-  transform:translateY(-1px);
+box-shadow:0px 5px 10px rgba(0,0,0,0.2);
+transform:translateY(-1px);
 }
 
 .btn-bottom-animation-1{
-  animation:comeFromBottom 1s ease-out .8s;
+animation:comeFromBottom 1s ease-out .8s;
 }
 
 .btn::after{
-  content:"";
-  text-decoration: none;
-  text-transform:uppercase;
-  position:absolute;
-  width:100%;
-  height:100%;
-  top:0;
-  left:0;
-  border-radius:100px;
-  display:inline-block;
-  z-index:-1;
-  transition: all .5s;
+content:"";
+text-decoration: none;
+text-transform:uppercase;
+position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+border-radius:100px;
+display:inline-block;
+z-index:-1;
+transition: all .5s;
 }
 
 .btn-white::after {
-    background: #022ba8;
+  background: #022ba8;
 }
 
 .btn-animation-1:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
 }
 
 @keyframes comeFromBottom{
-  0%{
-    opacity:0;
-    transform:translateY(40px);
-  } 
-  100%{
-    opacity:1;
-    transform:translateY(0);
-  }
+0%{
+  opacity:0;
+  transform:translateY(40px);
+} 
+100%{
+  opacity:1;
+  transform:translateY(0);
+}
 }
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 98%;
-    align-items: center;
+margin-left: 2%;
+margin-top: 0%;
+width: 1300px;
+height: 900px;
+display: flex;
+flex-direction: row;
+gap: 60px;
+margin-top: 0%;
 }
 .buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 18px; /* Disposition des 4 buttons */
-    width: 50%;
+margin-top: 4%;
+margin-right:0%;
+height: 500px;
+width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* Disposition des 4 buttons */
+  
 }
 .button {
-    background-color: white;
-    color:black;
-    border: none;
-    padding: 10xp;
-    border-radius: 10px;
-    cursor: pointer;
+  background-color: white;
+  color:black;
+  border: none;
+  padding: 10xp;
+  border-radius: 10px;
+  cursor: pointer;
 }
 button:hover {
-    background-color: #dddddd;
-    box-shadow: 0px 15px 20px #0dc7f5a6;
-    color: #022ba8;
-    transform: translateY(-7px);
+  background-color: #dddddd;
+  box-shadow: 0px 15px 20px #0dc7f5a6;
+  color: #022ba8;
+  transform: translateY(-7px);
 }
 .reduis {
-    border-radius: 40px; /* Partie d'animation des 4 buttons */
-    font-size: 30px;
-    width: 100%;
-    padding: 1%;
-    margin: 15px; 
-    letter-spacing: 3px;
-    font-weight: 500;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    box-shadow: 0px 8px 15px rgba(255, 253, 253, 0.582);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
+  border-radius: 40px; /* Partie d'animation des 4 buttons */
+  font-size: 30px;
+  width: 100%;
+  padding: 1%;
+  margin: 15px; 
+  letter-spacing: 3px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(255, 253, 253, 0.582);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
 }
 .student-image {
-    background-color: white;    /* Animation de la partie des images */
-    padding: 250px;
-    border-radius: 15px;
-    margin: 0 auto;
-    z-index: 1;
-    box-shadow: 0px 10px 10px rgb(73, 70, 92);
-    transition: 0.5s;
+  height: 500px;
+  width: 750px;
+  background-color: white;    /* Animation de la partie des images */
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0 auto;
+  z-index: 1;
+  box-shadow: 0px 10px 10px rgb(73, 70, 92);
+  transition: 0.5s;
 }
 .student-image:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 10px 10px black;
+  transform: translateY(-7px);
+  box-shadow: 0px 10px 10px black;
 }
 img {
-    max-width: 100%;
-    height: auto;
+height: 500px;
+width: 750px;
+margin-left: 10%;
+margin: 0%;
+border-radius: 15px;
 }

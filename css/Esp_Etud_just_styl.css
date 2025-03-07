@@ -3,20 +3,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     height: 140vh;
     margin: 0;
+    height: 1200px;
 }
-img {
-  width: 10%;
-  left:100%;
-  margin-top:18%;
-  margin-left: -90%;
+body div {
+  height: 1000px;
+  margin-top: 12%;
+}
+.img_epl {
+  height: 180px;
+  width: 200px;
+  padding: 10px;
+  margin-left: 1%;
+  margin-top: 6%;
 }
 p {
   color: white;
   font-size: 30px;
-  margin-left: -60%;
+  margin-left: 18%;
   margin-top: -6%;
 }
 /@media (min-width: 400px) and (max-width : 500px) {
@@ -29,11 +34,20 @@ p {
     padding : 20px;
   }
 }
+.div_nav {
+  height: 150px;
+  margin-top: 0%;
+}
 nav {
+    position: relative;
+    align-items: center;
+    margin-left: 30%;
+    width: 550px;
     background-color: white;
-    padding: 0.5%;
+    padding: 3px;
     border-radius: 30px;
     margin-bottom:10%;
+    display: flex;
     font-size: 200%;
     
 }
@@ -112,17 +126,24 @@ nav a:visited {
   }
 }
 .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 98%;
-    align-items: center;
+  margin-left: 2%;
+  margin-top: 0%;
+  width: 1300px;
+  height: 900px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  margin-top: 0%;
 }
 .buttons {
+  margin-top: 4%;
+  margin-right:0%;
+  height: 500px;
+  width: 700px;
     display: flex;
     flex-direction: column;
     gap: 18px; /* Disposition des 4 buttons */
-    width: 50%;
+    
 }
 .button {
     background-color: white;
@@ -155,8 +176,10 @@ button:hover {
     outline: none;
 }
 .student-image {
+    height: 500px;
+    width: 750px;
     background-color: white;    /* Animation de la partie des images */
-    padding: 250px;
+    padding: 10px;
     border-radius: 15px;
     margin: 0 auto;
     z-index: 1;
@@ -168,6 +191,9 @@ button:hover {
     box-shadow: 0px 10px 10px black;
 }
 img {
-    max-width: 100%;
-    height: auto;
+  height: 500px;
+  width: 750px;
+  margin-left: 10%;
+  margin: 0%;
+  border-radius: 15px;
 }
